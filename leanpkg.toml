@@ -1,0 +1,8 @@
+[package]
+name = "regularity-lemma"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.39.1"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "4e17e081f2289e57707a9d5bfda94011caa7258a"}
